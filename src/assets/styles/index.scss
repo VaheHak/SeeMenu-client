@@ -1,0 +1,3883 @@
+@import "media/media992";
+@import "media/media1200";
+@import "qrTemplates";
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Fonts/Montserrat-Regular.eot');
+  src: url('./Fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./Fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('./Fonts/Montserrat-Regular.woff') format('woff'),
+  url('./Fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+}
+
+@mixin widt-size($width) {
+  width: calc(#{$width} / 1920 * 100%);
+}
+
+li {
+  cursor: pointer;
+}
+
+.react-datepicker {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+
+  .clearButton {
+    border: 1px solid #ea785a;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+}
+
+::selection {
+  background: #ea785a;
+  color: whitesmoke;
+}
+
+.MuiAccordion-root.Mui-expanded {
+  margin: 10px 0 !important;
+}
+
+.MuiAlert-standardError {
+  color: white !important;
+  font-weight: 700 !important;
+  background-color: red !important;
+}
+
+.MuiInputLabel-outlined {
+  transform: translate(14px, 16px) scale(1) !important;
+
+  &.MuiInputLabel-shrink {
+    transform: translate(14px, -6px) scale(0.75) !important;
+  }
+}
+
+.MuiOutlinedInput-input {
+  padding: 10.5px 10.5px !important;
+}
+
+.MuiOutlinedInput-root {
+  height: 45px;
+}
+
+.MuiIconButton-edgeEnd {
+  margin: 0 !important;
+}
+
+.inputBlock {
+  display: flex;
+  justify-content: center;
+
+  .inputArea {
+    .errorText {
+      display: flex;
+      margin-left: 14px;
+      margin-right: 14px;
+      color: #f44336;
+      margin-top: 4px;
+    }
+  }
+}
+
+.emptyBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #e9e9e9c9;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+    padding: 12px 18px;
+    width: 50%;
+    height: 8%;
+  }
+}
+
+.MuiAlert-standardSuccess {
+  color: white !important;
+  font-weight: 700 !important;
+  background-color: green !important;
+}
+
+.MuiAlert-standardWarning {
+  color: white !important;
+  font-weight: 700 !important;
+  background-color: #ff9800 !important;
+}
+
+.MuiSvgIcon-root {
+  &.MuiSvgIcon-fontSizeInherit {
+    path {
+      color: white !important;
+    }
+  }
+}
+
+.errorBar {
+  top: 8% !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  transform: none !important;
+  display: block !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F2F2F2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C4C4C4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #C4C4C4;;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+.deleteIcon {
+  color: red !important;
+}
+
+.Delete {
+  background-color: red !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+
+  .logoBlock {
+    width: 55%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .siteLogo {
+      width: 16%;
+      object-fit: cover;
+      margin-left: 10%;
+    }
+
+    .siteCover {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .container {
+    width: 45%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+.inputBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .inputArea {
+    margin-top: 15px;
+    text-align: center;
+    width: 80%;
+
+    .MuiFormLabel-root {
+      color: #ea785a !important;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #ea785a !important;
+    }
+  }
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+  color: #ea785a !important;
+}
+
+.css-yk16xz-control {
+  border-color: #ea785a !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+  background-color: #ea785a !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  background-color: #ea785a !important;
+}
+
+.MuiFormGroup-root {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+  .regBlock {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    .formRegistration {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 10px;
+
+      .signUp {
+        color: #ea785a;
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      .registerBut {
+        width: 26%;
+        margin-top: 13px;
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ea785a;
+
+        .loadingBLock {
+          .load {
+            color: white;
+          }
+        }
+
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  hr {
+    width: 100%;
+    border: 1px dashed #ea785a;
+  }
+
+  .forgetBlock {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .forgetButton {
+      padding: 10px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      background-color: #ea785a;
+      color: white;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+  .logBlock {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    .formLogin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 10px;
+
+      .signIn {
+        color: #ea785a;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .loginBut {
+        font-size: 20px;
+        margin-top: 13px;
+        border: 2px solid #ea785a;
+        background-color: #ea785a;
+        color: white;
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 10px;
+
+        .loadingBLock {
+          .load {
+            color: white;
+          }
+        }
+
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  hr {
+    width: 100%;
+    border: 1px dashed #ea785a;
+  }
+
+  .forgetButton {
+    font-size: 20px;
+    background-color: white;
+    color: #ea785a;
+    margin-top: 25px;
+    border: none;
+  }
+
+  .forgetBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    span {
+      font-size: 18px;
+      margin-right: 15px;
+    }
+
+    .registerBut {
+      font-size: 20px;
+      background-color: white;
+      color: #ea785a;
+      border: none;
+    }
+
+  }
+
+  .oauthBlock {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    .my-facebook-button-class {
+      margin-right: 20px;
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      color: rgba(12, 136, 239, 0.75);
+      box-shadow: rgba(0, 0, 0, 0.24) 0 2px 2px 0, rgba(0, 0, 0, 0.24) 0 0 1px 0;
+      border: 1px solid transparent;
+      font-size: 22px;
+      font-weight: 500;
+      font-family: Roboto, sans-serif;
+      padding: 12px 18px;
+    }
+
+    .my-google-button-class div {
+      margin-right: 0 !important;
+      padding: 14px !important;
+    }
+
+    .my-google-button-class span {
+      padding: 0 !important;
+      font-weight: 0 !important;
+    }
+  }
+}
+
+.verify {
+
+  .loadingBLock {
+    position: relative;
+    height: 100vh;
+    background-color: #ea785a;
+
+    .loading {
+      align-items: center;
+      position: absolute;
+      left: 45%;
+      top: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .loadingText {
+        margin-top: 35px;
+        font-size: 30px;
+        color: white;
+      }
+    }
+  }
+
+  .containBlock {
+    width: 100%;
+    height: 100vh;
+
+    .requestIconBlock {
+      height: 50%;
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+      }
+    }
+
+    .requestTextBlock {
+      height: 50%;
+      background-color: #ea785a;
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+        .errorText {
+          color: red;
+          font-size: 30px;
+          font-weight: 800;
+          margin-top: 50px;
+        }
+
+        .registerText {
+          margin-top: 40px;
+          font-size: 30px;
+          font-weight: 800;
+          color: green;
+        }
+
+        .successText {
+          color: green;
+          font-size: 30px;
+          font-weight: 800;
+          margin-top: 50px;
+        }
+
+        .verifyButton {
+          font-size: 20px;
+          margin-top: 30px;
+          border: 2px solid white;
+          background: space;
+          color: white;
+          font-weight: 800;
+          padding: 10px 40px;
+          border-radius: 10px;
+
+          &:hover {
+            transition: background-color 2s ease-out;
+            background-color: #4d3e23;
+          }
+        }
+      }
+    }
+  }
+}
+
+.editUser {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+
+  .person {
+    padding: 10px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #66676b4f;
+
+    p {
+      color: #66676b;
+    }
+
+    .profileControlBlock {
+
+      .personIcon {
+        font-size: 45px;
+        color: #b5b5b5;
+        cursor: pointer;
+      }
+
+      .closeControl {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+        .controlBlock {
+          z-index: 9;
+          list-style-type: none;
+          width: 200px;
+          border: 1px solid #66676b4f;
+          position: absolute;
+          padding: 0 18px 18px 18px;
+          background-color: white;
+          right: 60px;
+          top: 100px;
+
+          li, a {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            margin-top: 10px;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+
+            .controlIcon {
+              font-size: 30px;
+            }
+
+            span {
+              font-size: 20px;
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .editBlock {
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    align-items: center;
+
+    .inputsBlock {
+      width: 50%;
+
+      .nameBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0;
+
+        &:nth-child(1) {
+          border-bottom: 2px solid #66676b4f;
+        }
+
+        .formBlock {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          align-items: baseline;
+          margin-bottom: 15px;
+
+          .inputLabel {
+            font-size: 18px;
+            width: 20%;
+          }
+
+          .inputBlock {
+            width: 80%;
+
+            .inputArea {
+              width: 100%;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    img {
+      object-fit: cover;
+      width: 50%;
+    }
+  }
+
+  .twoFactor {
+    padding: 20px 0;
+    border-top: 2px solid #66676b4f;
+
+    .switchBlock {
+      display: flex;
+      align-items: center;
+      margin: 10px 0 20px 0;
+
+      .MuiFormGroup-root {
+        width: 5%;
+      }
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .buttonsBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    .delete {
+      color: red;
+    }
+
+    .saveBlock {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+
+      .back {
+        font-size: 18px;
+        border: 1px solid #ea785a;
+        color: #ea785a;
+        border-radius: 7px;
+        background-color: white;
+        padding: 10px 20px;
+      }
+
+      .save {
+        background-color: #ea785a;
+        border: none;
+        color: white;
+      }
+    }
+  }
+}
+
+.repeat {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .logoBlock {
+    margin-bottom: 75px;
+
+    img {
+      width: 200px;
+      object-fit: cover;
+    }
+  }
+
+  .successText {
+    width: 32%;
+    margin-bottom: 20px;
+
+    .doneText {
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .passwordText {
+      font-size: 18px;
+    }
+  }
+
+  .repeatPasswordForm {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+
+    .registerBut {
+      font-size: 22px;
+      margin-top: 13px;
+      border: 2px solid #ea785a;
+      background: space;
+      color: #ea785a;
+      font-weight: 800;
+      padding: 15px 35px;
+      border-radius: 10px;
+
+      &:hover {
+        transition: background-color 2s ease-out;
+        background-color: #4d3e23;
+      }
+    }
+  }
+}
+
+.userProfile {
+  overflow: hidden;
+
+  .header {
+    box-shadow: 2px 10px 40px 6px #eeeeee;
+    height: 75px;
+
+    .row {
+      align-items: center;
+      height: 100%;
+    }
+
+    .userInfo {
+      @include widt-size(350);
+      padding-left: 15px;
+      border-right: 1px solid #dddddd;
+      height: 100%;
+      padding-top: 20px;
+      text-decoration: none;
+
+      span {
+        font-size: 20px;
+        color: #ea785a;
+      }
+
+      .userSurname {
+        margin-left: 15px;
+      }
+    }
+
+    .profileControlBlock {
+      @include widt-size(1570);
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 15px;
+
+      .personIcon {
+        font-size: 45px;
+        color: #b5b5b5;
+        cursor: pointer;
+      }
+
+      .closeControl {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+        .controlBlock {
+          z-index: 9;
+          list-style-type: none;
+          width: 200px;
+          border: 1px solid;
+          position: absolute;
+          padding: 0 18px 18px 18px;
+          background-color: white;
+          right: 0;
+          top: 75px;
+
+          li, a {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            margin-top: 18px;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+
+            .controlIcon {
+              font-size: 30px;
+            }
+
+            span {
+              font-size: 20px;
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    height: calc(100vh - 75px);
+    width: 100%;
+
+    .row {
+      height: 100%;
+
+      .management {
+        @include widt-size(350);
+        box-shadow: 2px 10px 40px 6px #eeeeee;
+        height: 100%;
+        padding-left: 20px;
+
+        ul {
+          list-style-type: none;
+          font-size: 20px;
+          margin-top: 60px;
+
+          a {
+            padding: 20px 0;
+            display: flex;
+            text-decoration: none;
+            color: black;
+            width: 100%;
+
+            li {
+              padding: 0;
+              display: flex;
+
+              p {
+                font-size: 18px;
+                margin-left: 15px;
+              }
+            }
+
+            &.active {
+              border-left: 5px solid #ea785a;
+              padding-left: 15px;
+              border-top: 1px solid #ea785a;
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+              border-bottom: 1px solid #ea785a;
+              color: #ea785a;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.restaurantBlock {
+  @include widt-size(1570);
+  overflow-y: auto;
+  height: 100%;
+  padding-bottom: 20px;
+
+  .restaurants {
+    width: 100%;
+
+    .buttons {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      .searchBlog {
+        margin-top: 30px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+
+        input {
+          border: none;
+          color: black;
+          border-radius: 7px;
+          width: 50%;
+          height: 50px;
+          outline: none;
+          box-shadow: 5px 0 5px 5px #ececec;
+          padding-left: 15px;
+          font-size: 18px;
+        }
+      }
+
+      .addRestaurantBlock {
+        margin-top: 30px;
+
+        &.branches {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        button {
+          border: 1px solid;
+          color: white;
+          border-radius: 7px;
+          background-color: #ea785a;
+          padding: 10px 20px;
+
+          a {
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+          }
+        }
+      }
+
+    }
+
+    .restaurantList {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      flex-wrap: wrap;
+
+      .not_orders {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        border-radius: 10px;
+        font-size: 22px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px;
+        padding: 12px 18px;
+      }
+
+      .templates {
+        width: 27%;
+        position: relative;
+        margin: 20px;
+        color: #ea785a !important;
+        border-top: 0 !important;
+        border-bottom: 0 !important;
+        border-right: 0 !important;
+        border-left: 0 !important;
+        padding-left: 0 !important;
+        border-radius: 9px;
+        box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.7) !important;
+
+        .MuiSvgIcon-root {
+          margin-left: 10px;
+          cursor: pointer;
+        }
+
+        .MuiPaper-elevation1 {
+          border: 0 !important;
+          box-shadow: 0 11px 21px -10px rgba(234, 120, 90, 0) !important;
+        }
+
+        .MuiCardContent-root {
+          padding: 10px;
+        }
+
+        .order {
+          position: absolute;
+          top: 1px;
+          right: 0;
+          margin-right: 10px;
+          display: flex;
+          align-items: center;
+
+          svg {
+            color: rgba(182, 61, 61, 0.31);
+          }
+        }
+      }
+
+      .restaurantCard {
+        width: 27%;
+        margin-top: 25px;
+
+        .MuiCardActions-root {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 8px 0;
+
+          .switch-holder {
+            display: flex;
+            border-radius: 10px;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 0 !important;
+
+            span {
+              font-size: 14px;
+            }
+          }
+
+          .createBranchBlock {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+
+            .MuiButton-textSizeSmall {
+              padding: 0 !important;
+              min-width: 30px;
+            }
+
+            .branch {
+              padding: 8px;
+              border: none;
+              color: white;
+              border-radius: 7px;
+              background-color: #ea785a;
+              margin: 0 !important;
+            }
+          }
+        }
+
+        .nameBlock {
+          display: flex;
+          justify-content: space-between;
+
+          h2 {
+            padding-top: 10px;
+          }
+
+          img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+        }
+
+        .cardNavigationBlock {
+
+          .cardNavigationBlockUl {
+            list-style-type: none;
+
+            li {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 10px;
+            }
+          }
+        }
+
+        .cardSubName {
+          text-align: center;
+          margin-top: 10px;
+          font-size: 18px;
+        }
+
+        .settings {
+          width: 25px;
+          height: 25px;
+          color: grey;
+        }
+      }
+
+
+    }
+
+  }
+
+}
+
+.menusBlock {
+  width: calc(1570 / 1920 * 100%);
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  padding: 20px 0;
+
+  svg {
+    color: #ea785a;
+  }
+
+  .loading {
+    margin-left: 45%;
+    margin-top: 35%;
+
+    .load {
+      svg {
+        color: green;
+      }
+    }
+  }
+
+  .root {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 30px;
+
+    .RestaurantNameRoot {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+
+      .restaurantNameBlock {
+        width: 58%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .restaurantName {
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          color: #ea785a;
+        }
+
+        .restaurantAddress {
+          font-size: 18px;
+          color: #ea785a;
+        }
+      }
+    }
+
+
+    .menuSearchBlock {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      button {
+        padding: 10px 20px;
+      }
+
+      input {
+        width: 50%;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        border-color: #ea785a;
+      }
+
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+
+      .editBlock {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+      }
+
+      .categoryCreate {
+        border: none;
+        border-radius: 7px;
+        color: white;
+        background-color: #ea785a;
+      }
+    }
+
+    .CategoryBlock {
+      border: 1px solid #dddddd;
+      margin-top: 10px;
+      box-shadow: 0 0 23px 0 #eeeeee;
+
+      .categoryWorkBlock {
+        border-bottom: 1px solid #dddddd;
+        width: 100%;
+
+        .MuiAccordionSummary-content {
+          margin: 0;
+        }
+
+        & > div > div {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .categoryNameBlock {
+            display: flex;
+            width: 25%;
+            justify-content: space-between;
+            align-items: center;
+
+            .menuButton {
+              display: flex;
+              align-items: center;
+              width: 100%;
+
+              .heading {
+                font-size: 20px;
+                margin-left: 8px;
+              }
+            }
+          }
+
+          .categorySwitch {
+            width: 25%;
+          }
+
+          .categoryControlBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            svg {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+
+      .menuItems {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        max-height: 450px;
+        height: 100%;
+
+        .menuItemBlock {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-top: 10px;
+          align-items: center;
+          border-top: 1px solid #b5b5b5;
+
+          &:nth-child(1) {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.menuItemGlobalInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  .menuItemInfo {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+
+    .priceInput {
+      border-radius: 5px;
+      padding: 8px 10px;
+      width: 20%;
+      border: none;
+      border-bottom: 1px solid #ea785a;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+
+    p {
+      font-size: 18px;
+      color: #ea785a;
+    }
+  }
+
+  .menuSwitch {
+    width: 30%;
+  }
+
+  .menuItemButtons {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+
+    svg {
+      font-size: 25px;
+    }
+  }
+}
+
+.typesBlock {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  .typesBlockItem {
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    margin-left: 15%;
+    align-items: center;
+
+    .typeName {
+      font-size: 20px;
+      color: #ea785a;
+    }
+
+    .priceInput {
+      border-radius: 5px;
+      padding: 8px 10px;
+      width: 20%;
+      border: none;
+      border-bottom: 1px solid #ea785a;
+    }
+  }
+}
+
+.tables {
+  @include widt-size(1570);
+  padding-bottom: 20px;
+  height: 100%;
+  overflow-y: auto;
+
+  .loadingBLock {
+    .loading {
+      margin-left: 45%;
+      margin-top: 35%;
+
+      .load {
+        color: green;
+      }
+    }
+  }
+
+  .tablesRoot {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .backButton {
+      font-size: 35px;
+      padding-left: 10px;
+      color: white;
+      border-radius: 50%;
+      background-color: #ea785a;
+    }
+
+    .RestaurantNameRoot {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+
+      .restaurantNameBlock {
+        width: 58%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .restaurantName {
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          color: #ea785a;
+        }
+
+        .restaurantAddress {
+          font-size: 18px;
+          color: #ea785a;
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+
+    .buttonsBlock {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        border-radius: 7px;
+        background-color: #ea785a;
+      }
+    }
+
+    .pageTitle {
+      font-size: 30px;
+      color: #ea785a;
+      margin: 40px 0;
+    }
+
+    .tablesBlock {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .tableSvg {
+        background-color: #f1f1f1;;
+        width: 100%;
+        border-radius: 10px;
+        height: 600px;
+
+        .group {
+          .text {
+            user-select: none;
+
+            &:hover {
+              & + .textHover {
+                display: block;
+              }
+            }
+          }
+
+          .textHover {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.managers {
+  padding: 40px 0 8px 0;
+  @include widt-size(1570);
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+
+  .controlBlock {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+
+    button {
+      padding: 10px 22px;
+      margin-right: 50px;
+      border: none;
+      color: white;
+      border-radius: 7px;
+      background-color: #ea785a;
+    }
+  }
+
+  .managersBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 95%;
+    max-height: 90%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    .table {
+      min-width: 100%;
+      border-collapse: collapse;
+
+      .tableHead {
+        border-top: 1px solid #e7e7e7;
+        border-left: 1px solid #e7e7e7;
+        border-right: 1px solid #e7e7e7;
+
+        tr {
+          th {
+            min-width: 150px;
+            padding: 15px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #6B6B6B;
+
+            &:nth-child(1) {
+              min-width: 2%;
+            }
+
+            &.tableInput {
+              height: 40px;
+              padding: 0 0 5px 0;
+
+              input {
+                width: 100%;
+                height: 100%;
+                min-width: 200px;
+                text-align: center;
+                border: 1px solid #CECECE;
+
+                &:focus {
+                  outline: 1px solid #ea785a;
+                  border: 1px solid #ea785a;
+                }
+              }
+
+              .react-datepicker-wrapper {
+                height: 100%;
+
+                .react-datepicker__input-container {
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .tableBody {
+        tr {
+          td {
+            padding: 10px;
+            text-align: center;
+            white-space: nowrap;
+
+            &.emailBlock {
+              position: relative;
+
+              .emailVisibility {
+                display: none;
+              }
+
+              &:hover {
+                .emailVisibility {
+                  display: block;
+                  position: absolute;
+                  background-color: #6d6c6c;
+                  border: 1px solid #6d6c6c;
+                  color: white;
+                  z-index: 9999;
+                  border-radius: 5px;
+                  left: 30px;
+                  bottom: 30px;
+                  padding: 10px;
+                }
+              }
+            }
+
+            .MuiSwitch-track {
+              background: rgba(120, 120, 128, 0.47);
+            }
+
+            .buttonsBlock {
+              .edit {
+                color: #ea785a;
+                font-size: 25px;
+              }
+
+              .delete {
+                color: red;
+                font-size: 25px;
+                margin-left: 15px;
+              }
+            }
+          }
+
+          &:nth-child(2n-1) {
+            background-color: rgba(0, 0, 0, 0.04);
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.users {
+  @include widt-size(1570);
+  overflow-y: hidden;
+  height: 100%;
+
+  .usersBlock {
+    display: block;
+    margin: 10px auto;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .users__Block {
+    width: 95%;
+    max-height: 93%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    .table {
+      min-width: 100%;
+      border-collapse: collapse;
+
+      .tableHead {
+        border-top: 1px solid #e7e7e7;
+        border-left: 1px solid #e7e7e7;
+        border-right: 1px solid #e7e7e7;
+
+        tr {
+          th {
+            min-width: 150px;
+            font-size: 20px;
+
+            &:nth-child(1) {
+              min-width: 2%;
+            }
+
+            &.tableInput {
+              height: 40px;
+              padding: 0 0 5px 0;
+
+              input {
+                width: 100%;
+                height: 100%;
+                min-width: 200px;
+                text-align: center;
+                border: 1px solid #CECECE;
+
+                &:focus {
+                  outline: 1px solid #ea785a;
+                  border: 1px solid #ea785a;
+                }
+              }
+
+              .react-datepicker-wrapper {
+                height: 100%;
+
+                .react-datepicker__input-container {
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .tableBody {
+        tr {
+          td {
+            padding: 10px;
+            text-align: center;
+            white-space: nowrap;
+
+            &.emailBlock {
+              position: relative;
+
+              .emailVisibility {
+                display: none;
+              }
+
+              &:hover {
+                .emailVisibility {
+                  display: block;
+                  position: absolute;
+                  background-color: #6d6c6c;
+                  border: 1px solid #6d6c6c;
+                  color: white;
+                  z-index: 9999;
+                  border-radius: 5px;
+                  left: 30px;
+                  bottom: 30px;
+                  padding: 10px;
+                }
+              }
+            }
+
+            .MuiSwitch-track {
+              background: rgba(120, 120, 128, 0.47);
+              opacity: unset;
+            }
+
+            .MuiSwitch-colorPrimary.Mui-checked {
+              color: white;
+            }
+
+            .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+              background-color: #FF6838;
+            }
+
+            .buttonsBlock {
+              display: flex;
+              justify-content: space-evenly;
+
+              .edit {
+                color: #ea785a;
+                font-size: 25px;
+              }
+
+              .delete {
+                font-size: 25px;
+                color: #292D32;
+              }
+            }
+          }
+
+          &:nth-child(2n-1) {
+            background-color: rgba(0, 0, 0, 0.04);
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    .userBlog {
+      width: 23%;
+      margin-bottom: 10px;
+      border: 2px solid #ea785a;
+      border-radius: 5px;
+
+      .userName {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+
+        h4 {
+          font-size: 22px;
+          font-weight: 700;
+          margin-left: 10px;
+        }
+      }
+
+      .restaurantBlog {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        a {
+          font-weight: 700;
+          color: #000;
+        }
+
+        p {
+          display: flex;
+          font-weight: 700;
+          margin-left: 5px;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        span {
+          font-weight: 700;
+          color: red;
+          margin-left: 2px;
+        }
+      }
+
+      .MuiSwitch-colorPrimary.Mui-checked {
+        color: #f8bc4b !important;
+      }
+
+      .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+        background-color: #f8bc4b !important;
+      }
+
+      .activeDelete {
+        width: 83%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 10px;
+
+        .editBlock {
+
+          .MuiSvgIcon-root {
+            color: red !important;
+            cursor: pointer;
+          }
+        }
+
+        .MuiFormControlLabel-root {
+          flex-direction: row-reverse;
+          margin: 0 !important;
+        }
+
+        .deleteBlog {
+          color: red;
+
+          .delete {
+            font-size: 25px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// MODALS
+
+.successModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 575px;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .regSuccessBlock {
+      .successImage {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+
+        .successText {
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+
+      .verification {
+        width: 100%;
+        background-color: #ea785a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+        .verifyText {
+          color: white;
+          font-size: 22px;
+          font-weight: 500;
+        }
+
+        .close {
+          font-size: 20px;
+          margin-top: 14px;
+          border: 2px solid white;
+          background: space;
+          color: white;
+          font-weight: 500;
+          padding: 10px 35px;
+          border-radius: 10px;
+
+          &:hover {
+            transition: background-color 2s ease-out;
+            background-color: #4d3e23;
+          }
+        }
+      }
+    }
+  }
+}
+
+.forgotModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 50%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .forgotBlock {
+      width: 100%;
+      padding: 30px 0;
+
+      .writeBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+          font-size: 25px;
+          color: #ea785a;
+        }
+
+        .forgotEmailFor {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+
+          .buttonsBlock {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+
+            .loginBut {
+              font-size: 20px;
+              margin-top: 13px;
+              border: none;
+              background-color: #ea785a;
+              color: white;
+              padding: 8px 20px;
+              border-radius: 10px;
+
+              .load {
+                color: white;
+              }
+
+              span {
+                font-size: 20px;
+              }
+
+              &:hover {
+                transition: background-color 2s ease-out;
+                background-color: #4d3e23;
+              }
+            }
+          }
+        }
+      }
+
+      .successForgotBlock {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .successText {
+          font-size: 18px;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          color: green;
+        }
+
+        .close {
+          font-size: 20px;
+          margin-top: 13px;
+          border: 2px solid white;
+          background: space;
+          color: white;
+          font-weight: 500;
+          padding: 10px 35px;
+          border-radius: 10px;
+
+          &.Forgot {
+            background-color: orange;
+            margin: 0 auto;
+          }
+
+          &:hover {
+            transition: background-color 2s ease-out;
+            background-color: #4d3e23;
+          }
+        }
+      }
+    }
+  }
+}
+
+.repeatModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 40%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .repeatBLock {
+      width: 100%;
+      height: 100%;
+
+      .successRepeatBlock {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 0;
+        flex-direction: column;
+
+        .successText {
+          font-size: 22px;
+          color: green;
+        }
+
+        .close {
+          font-size: 22px;
+          margin-top: 13px;
+          border: none;
+          background: space;
+          color: white;
+          font-weight: 800;
+          padding: 15px 55px;
+          border-radius: 10px;
+
+          &.Forgot {
+            background-color: orange;
+          }
+
+          &:hover {
+            transition: background-color 2s ease-out;
+            background-color: #4d3e23;
+          }
+        }
+      }
+
+      .errorRepeatBlock {
+        background-color: #ea785a;
+        width: 100%;
+        height: 100%;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+
+        .errorText {
+          font-size: 25px;
+          color: red;
+          margin-top: 70px;
+        }
+      }
+    }
+  }
+}
+
+.restaurantRegisterModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 70%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .closeBlock {
+      display: flex;
+      border-bottom: 1px solid #d8d7d7;
+      width: 100%;
+      background-color: #f8f8f8;
+
+      .process {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+
+        .signUp {
+          font-size: 20px;
+        }
+      }
+
+
+      .closeButtonBlock {
+        width: 5%;
+        padding: 10px;
+        border-left: 1px solid #d8d7d7;
+      }
+    }
+
+    .restaurantRegister {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 0;
+
+      .regGroup {
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+
+        .inputBlock {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          .inputArea {
+            margin-top: 15px;
+            text-align: center;
+            width: 80%;
+          }
+        }
+
+        &.images {
+          margin-top: 10px;
+          margin-bottom: 15px;
+
+          .coverLabel {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .restaurantImageText {
+              font-size: 18px;
+            }
+
+            .fileInput {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+
+              div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 180px;
+                width: 180px;
+                margin-top: 20px;
+
+                .image {
+                  width: 100%;
+                  object-fit: contain;
+                  height: 100%;
+                }
+              }
+
+              .buttonFile {
+                padding: 10px;
+                text-align: center;
+                font-size: 18px;
+                margin-top: 10px;
+                background-color: #ea785a;
+                color: white;
+                border-radius: 10px;
+
+                &:hover {
+                  transition: background-color 1s ease-out;
+                  background-color: #4d3e23;
+                }
+
+              }
+
+              input {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+      .regBlock {
+        width: 48%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+
+        .buttonDesign {
+          padding: 10px 15px;
+          text-align: center;
+          margin-top: 10px;
+          border: none;
+          background-color: #ea785a;
+          color: white;
+          border-radius: 10px;
+
+          &.Delete {
+            background-color: red;
+
+            &:hover {
+              transition: background-color 1s ease-out;
+              background-color: red;
+            }
+          }
+
+          &:hover {
+            transition: background-color 1s ease-out;
+            background-color: #4d3e23;
+          }
+        }
+      }
+    }
+  }
+}
+
+.createCategoryModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 50%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .createCategory {
+      width: 100%;
+      height: 100%;
+
+      .closeCategoryBlock {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #d8d7d7;
+
+        span {
+          align-items: center;
+          display: flex;
+          margin-left: 15px;
+          font-size: 18px;
+          color: #66676b;
+        }
+
+        .closeButton {
+          height: 100%;
+          border-left: 1px solid #d8d7d7;
+          padding: 10px;
+          cursor: pointer;
+          color: #66676b;
+        }
+      }
+
+      .categoryLanguageBlock {
+        display: flex;
+
+        .categoryLanguageDiv {
+          width: calc(100% / 3);
+          text-align: center;
+          background-color: #f8f8f8;
+          cursor: pointer;
+          border-bottom: 1px solid #d8d7d7;
+
+          &.active {
+            background-color: white;
+            border-bottom: none;
+          }
+
+          p {
+            color: #66676b;
+            padding: 10px;
+          }
+
+          &:nth-child(2) {
+            border-left: 1px solid #d8d7d7;
+            border-right: 1px solid #d8d7d7;
+          }
+        }
+      }
+
+      .categoryLanguageBlockRegister {
+        width: 100%;
+
+        .categoryRegisterLanguage {
+          width: 100%;
+
+          .categoryForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 15px;
+            padding-bottom: 11px;
+
+            .categoryLabel {
+              width: 50%;
+              margin-top: 20px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+
+              .restaurantCategoryTittle {
+                font-size: 20px;
+                color: #66676b;
+              }
+
+              .fileInput {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+
+                .image {
+                  width: 250px;
+                  height: 166px;
+                  margin-top: 20px;
+                  object-fit: contain;
+                }
+
+                .buttonFile {
+                  width: 50%;
+                  padding: 10px 0;
+                  text-align: center;
+                  font-size: 17px;
+                  margin-top: 13px;
+                  background-color: #ea785a;
+                  color: white;
+                  border-radius: 10px;
+
+                  &:hover {
+                    transition: background-color 1s ease-out;
+                    background-color: #4d3e23;
+                  }
+
+                }
+
+                input {
+                  display: none;
+                }
+              }
+            }
+
+            .categoryRegisterBut {
+              font-size: 18px;
+              margin-top: 10px;
+              border: none;
+              background-color: #ea785a;
+              color: white;
+              padding: 8px 15px;
+              border-radius: 10px;
+
+              &:hover {
+                transition: background-color 2s ease-out;
+                background-color: #4d3e23;
+              }
+            }
+          }
+
+          .categorySuccess {
+            text-align: center;
+            font-size: 30px;
+            color: green;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.deleteCategoryModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 40%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .deleteModal {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+
+      span {
+        font-size: 20px;
+        color: red;
+        text-align: center;
+      }
+
+      & > div {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        button {
+          font-size: 20px;
+          padding: 10px 15px;
+          border: none;
+          border-radius: 7px;
+          color: white;
+          background-color: #ea785a;
+
+          &:hover {
+            transition: background-color 2s ease-out;
+            background-color: #4d3e23;
+          }
+        }
+      }
+    }
+  }
+}
+
+.createMenuModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 45%;
+    max-height: 80%;
+    inset: auto !important;
+    padding: 0 !important;
+
+    .createMenu {
+      width: 100%;
+      height: 100%;
+
+      .closeCategoryBlock {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #d8d7d7;
+
+        span {
+          align-items: center;
+          display: flex;
+          margin-left: 15px;
+          font-size: 18px;
+          color: #66676b;
+        }
+
+        .closeButton {
+          height: 100%;
+          border-left: 1px solid #d8d7d7;
+          padding: 10px;
+          cursor: pointer;
+          color: #66676b;
+        }
+      }
+
+      .categoryLanguageBlock {
+        display: flex;
+
+        .categoryLanguageDiv {
+          width: calc(100% / 3);
+          text-align: center;
+          background-color: #f8f8f8;
+          cursor: pointer;
+          border-bottom: 1px solid #d8d7d7;
+
+          &.active {
+            background-color: white;
+            border-bottom: none;
+          }
+
+          p {
+            color: #66676b;
+            padding: 10px;
+          }
+
+          &:nth-child(2) {
+            border-left: 1px solid #d8d7d7;
+            border-right: 1px solid #d8d7d7;
+          }
+        }
+      }
+
+      .categoryLanguageBlockRegister {
+        width: 100%;
+
+        .categoryRegisterLanguage {
+          width: 100%;
+
+          .categoryForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 10px;
+            padding-bottom: 10px;
+
+            .inputBlock {
+
+              .inputArea {
+                width: 80%;
+
+              }
+            }
+
+            .selectBlock {
+              justify-content: space-between;
+              width: 80%;
+              display: flex;
+
+              .inputBlock {
+                width: 68%;
+                justify-content: start;
+
+                .inputArea {
+                  width: 100%;
+                }
+              }
+
+              .rateSelectBlock {
+                width: 30%;
+                margin-top: 15px;
+
+                .rate__control {
+                  height: 40px;
+                }
+              }
+
+            }
+
+            .veganSelectBlock {
+              width: 80%;
+              margin-top: 15px;
+
+              .vegan__control {
+                height: 40px;
+              }
+            }
+
+            .typesBlock {
+              display: flex;
+              width: 80%;
+              flex-direction: column;
+
+              .typesBlockInputs {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .inputs {
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+
+                  .inputBlock {
+                    width: 50%;
+
+                    .MuiOutlinedInput-notchedOutline {
+                      border-color: #ea785a !important;
+                    }
+
+                    .typeName {
+                      width: 100%;
+                      margin-top: 15px;
+                      text-align: center;
+                    }
+
+                    .typePrice {
+                      width: 70%;
+                      margin-top: 15px;
+                      text-align: center;
+                    }
+
+                    &:nth-child(3) {
+                      justify-content: flex-end;
+                      width: 40%;
+                    }
+                  }
+
+                  .typePrice {
+                    width: 30%;
+                  }
+                }
+
+                .itemNames {
+                  display: flex;
+                  margin-left: 6%;
+                  margin-top: 1%;
+
+                  p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #666666;
+                    margin-left: 10px;
+
+                    &:nth-child(1) {
+                      margin-left: 0;
+                    }
+                  }
+                }
+              }
+
+              .addTypeItem {
+                border: none;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                color: #66676b;
+                margin-top: 15px;
+
+                svg {
+                  border-radius: 5px;
+                  color: #ea785a;
+                  border: 1px solid #ea785a;
+                  margin-right: 10px;
+                }
+              }
+            }
+
+            .categoryLabel {
+              width: 80%;
+              margin-top: 20px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+
+
+              .restaurantCategoryTittle {
+                font-size: 20px;
+                color: #66676b;
+              }
+
+              .fileInput {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .images {
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-around;
+
+                  .image {
+                    width: 19%;
+                    height: 125px;
+                    object-fit: contain;
+                  }
+                }
+
+                .buttonFile {
+                  padding: 10px;
+                  text-align: center;
+                  font-size: 17px;
+                  margin-top: 10px;
+                  background-color: #ea785a;
+                  color: white;
+                  border-radius: 10px;
+
+                  &:hover {
+                    transition: background-color 1s ease-out;
+                    background-color: #4d3e23;
+                  }
+
+                }
+
+                input {
+                  display: none;
+                }
+
+                .errorText {
+                  color: red;
+                  font-size: 16px;
+                }
+              }
+            }
+
+            .categoryRegisterBut {
+              padding: 10px 25px;
+              font-size: 18px;
+              margin-top: 13px;
+              border: none;
+              background-color: #ea785a;
+              color: white;
+              border-radius: 10px;
+
+              &:hover {
+                transition: background-color 2s ease-out;
+                background-color: #4d3e23;
+              }
+            }
+          }
+
+          .categorySuccess {
+            text-align: center;
+            font-size: 30px;
+            color: green;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.createTableModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 40%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .createTable {
+      width: 100%;
+      height: 100%;
+
+      .closeTableBlock {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #d8d7d7;
+
+        span {
+          align-items: center;
+          display: flex;
+          margin-left: 15px;
+          font-size: 18px;
+          color: #66676b;
+        }
+
+        .closeButton {
+          height: 100%;
+          border-left: 1px solid #d8d7d7;
+          padding: 13px;
+          cursor: pointer;
+          color: #66676b;
+        }
+
+      }
+
+      .tableInputBlock {
+        padding: 10px 0;
+
+        .tableForm {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          button {
+            font-size: 18px;
+            padding: 8px 20px;
+            border: none;
+            color: white;
+            border-radius: 7px;
+            background-color: #ea785a;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.createManagerModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 40%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .createManager {
+      display: flex;
+      flex-direction: column;
+
+      .closeManagerBlock {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #d8d7d7;
+
+        span {
+          align-items: center;
+          display: flex;
+          margin-left: 15px;
+          color: #66676b;
+        }
+
+        .closeButton {
+          border-left: 1px solid #d8d7d7;
+          padding: 10px;
+          cursor: pointer;
+          color: #66676b;
+        }
+      }
+
+      .managerForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0 20px 0;
+
+        .restaurantSelect {
+          width: 100%;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+
+          .restaurantSelectName {
+            color: #66676b;
+            margin: 15px 0;
+          }
+
+          .restaurantSelectBlock {
+            width: 64%;
+
+            .restaurant__control {
+              height: 40px;
+            }
+
+            .restaurant__menu {
+              z-index: 9999 !important;
+            }
+          }
+        }
+
+        button {
+          font-size: 18px;
+          padding: 10px 30px;
+          border: 1px solid;
+          color: white;
+          border-radius: 7px;
+          background-color: #ea785a;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+.repeatLogin {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 50%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .messageBlock {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+      .closeBlock {
+        display: flex;
+        background-color: #fff;
+        width: 100%;
+        justify-content: flex-end;
+        border-bottom: 1px solid #ccc;
+
+        .closeButton {
+          height: 100%;
+          padding: 10px;
+          cursor: pointer;
+          color: #66676b;
+          position: relative;
+          width: max-content;
+          display: flex;
+          z-index: 1;
+          justify-content: flex-end;
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+          }
+
+          &:hover {
+            width: 100%;
+
+            &:after {
+              background-color: #ccc;
+              animation-name: close;
+              animation-duration: 2s;
+              animation-fill-mode: forwards;
+            }
+          }
+        }
+      }
+
+      .verifyTitle {
+        font-size: 24px;
+        margin-top: 20px;
+        color: #ea785a;
+      }
+
+      .text {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px 0;
+        line-height: 35px;
+        color: #66676b;
+      }
+
+      .sendButton {
+        cursor: pointer;
+        border: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        padding: 10px 20px;
+        background-color: #ea785a;
+      }
+    }
+  }
+}
+
+.usersModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 45%;
+    inset: auto !important;
+    height: auto;
+    padding: 0 !important;
+
+    .editUserModal {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 0;
+
+      .processName {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      .inputsBlock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .buttonBlock {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+
+        button {
+          font-size: 20px;
+          border: none;
+          border-radius: 7px;
+          color: white;
+          background-color: #ea785a;
+          padding: 10px 20px;
+        }
+
+        button:hover {
+          transition: background-color 2s ease-out;
+          background-color: #4d3e23;
+        }
+      }
+    }
+  }
+}
+
+.createOrderModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 60%;
+    max-height: 90%;
+    inset: auto !important;
+    padding: 0 !important;
+  }
+}
+
+.AuthenticationModal {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    border: 0 !important;
+    width: 50%;
+    inset: auto !important;
+    padding: 0 !important;
+
+    .closeBlock {
+      display: flex;
+      background-color: #fff;
+      width: 100%;
+      justify-content: flex-end;
+      border-bottom: 1px solid #ccc;
+      padding: 7px;
+
+      .close {
+        cursor: pointer;
+        color: #66676b;
+        display: flex;
+      }
+    }
+
+    .imageBlock {
+      overflow-x: hidden;
+      overflow-y: auto;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 40%;
+        object-fit: cover;
+      }
+
+      .textInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        span {
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        p {
+          margin: 10px 0;
+        }
+
+        .TwoFactorBlock {
+          display: flex;
+
+          .key {
+            transform: rotate(90deg);
+            color: #ea785a;
+            border: 1px solid;
+            border-top: none;
+            font-size: 41px;
+            padding: 7px;
+          }
+
+          input {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #ea785a;
+            border-bottom: 1px solid #ea785a;
+            outline: none;
+          }
+
+          .verifyButton {
+            border: 1px solid #ea785a;
+            background-color: #ea785a;
+            color: white;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Animation
+
+@keyframes close {
+  0% {
+    height: 0;
+    background-color: #fff;
+  }
+  100% {
+    height: 100%;
+    background-color: #ccc;
+  }
+}
+
+.block1 {
+  width: 100%;
+  height: 200px;
+  background-color: #868686;
+  transition: 0.4s;
+}
+
+.orderQr {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .closeOrderBlock {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #d8d7d7;
+
+    span {
+      align-items: center;
+      display: flex;
+      margin-left: 15px;
+      font-size: 18px;
+      color: #66676b;
+    }
+
+    .closeButton {
+      border-left: 1px solid #d8d7d7;
+      padding: 10px;
+      cursor: pointer;
+      color: #66676b;
+    }
+  }
+
+  .buttonsBlock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .disabled {
+      background-color: white;
+      width: 50%;
+    }
+
+    .orderTable {
+      border: 1px solid #d8d7d7;
+      border-top: 0;
+      border-radius: 0;
+      background-color: #f8f8f8;
+      color: #66676b;
+      width: 50%;
+    }
+
+    button {
+      z-index: 5;
+    }
+
+  }
+
+  .tablesNameBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .tableBlock {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      overflow-y: scroll;
+      width: 100%;
+      height: 100%;
+      max-height: 650px;
+      border-bottom: 1px solid #c4c4c4;
+
+      .singleTable {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #c4c4c4;
+
+        .tableName {
+          padding: 15px 0;
+          font-size: 20px;
+        }
+
+        .countControl {
+          display: flex;
+
+          .count {
+            border: 0;
+            text-align: center;
+            width: 75px;
+            font-size: 20px;
+
+            &:disabled {
+              background-color: white !important;
+            }
+          }
+        }
+
+        &:nth-last-child(1) {
+          border-bottom: none;
+        }
+      }
+    }
+
+    .chooseBlock {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px 0;
+
+      .price {
+        font-size: 20px;
+      }
+
+      .choose {
+        font-size: 18px;
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        border-radius: 7px;
+        background-color: #ea785a;
+      }
+    }
+
+  }
+
+  .info {
+    font-size: 16px;
+    margin-left: 6%;
+    padding-bottom: 10px;
+  }
+
+  .btn_save {
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .btn_order {
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .back {
+    right: 0;
+  }
+
+}
+
+.imagesEditBlock {
+  margin: 20px 0;
+
+  .edit_page {
+    display: flex;
+    justify-content: space-around;
+
+    .edit_block {
+      margin-left: 25px;
+      overflow: auto;
+      padding: 5px 15px 25px;
+      width: 40%;
+      background-color: rgba(231, 231, 231, 0.3);
+      max-height: 500px;
+      min-width: 330px;
+
+      .button {
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #FFFFFF;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #2f2e2e;
+        background-color: #FFFFFF;
+        text-align: center;
+        transition: all 0.2s;
+        text-shadow: 1px 1px 1px silver;
+        box-shadow: 1px 1px 2px 1px #b5b5b5;
+      }
+
+      .button:hover {
+        box-shadow: 1px 2px 4px 1px #939292;
+      }
+
+      .AccordionDetails {
+        display: block;
+        padding: 0 30px 30px;
+
+        ul {
+          li {
+            list-style-type: none;
+            padding: 25px 25px 30px;
+            width: 100%;
+            -webkit-box-shadow: 0 10px 13px -7px rgba(0, 0, 0, 0.49), -32px -3px 16px 10px rgba(216, 255, 212, 0);
+            box-shadow: 0 10px 13px -7px rgba(0, 0, 0, 0.49), -32px -3px 16px 10px rgba(216, 255, 212, 0);
+
+            p {
+              margin-bottom: 16px;
+              padding-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//Templates
+
+.templateBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-around;
+
+  .imagesBlock {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      width: 40%;
+      height: auto;
+
+      &.imageBorder {
+        border: 5px dashed #ea785a;
+      }
+    }
+  }
+
+  .order {
+    color: #d0852e;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+      color: #c47a23;
+      transform: scale(1.4);
+    }
+  }
+}
+
+.templates {
+  width: calc(1570 / 1920 * 100%);
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 1%;
+
+    .tableHead {
+      height: 60px;
+      border-top: 1px solid #e7e7e7;
+      border-left: 1px solid #e7e7e7;
+      border-right: 1px solid #e7e7e7;
+      padding: 2px 5px;
+
+      tr {
+        height: 50px;
+
+        th:not(.index) {
+          min-width: 120px;
+        }
+      }
+
+      .tableInput {
+
+        input {
+          border: 0 solid silver;
+          outline: none;
+          box-shadow: 1px 0 3px 0 silver;
+          margin: 0 5px;
+          padding: 4px 7px;
+          text-align: center;
+        }
+      }
+    }
+
+    .tableBody {
+
+      .pending {
+        background-color: rgba(232, 0, 0, 0.1);
+
+      }
+
+      .inProcess {
+        background-color: rgba(255, 116, 37, 0.1);
+      }
+
+      .completed {
+        background-color: rgba(0, 168, 77, 0.1);
+      }
+
+      tr {
+        width: 100%;
+        height: 57px;
+        border-top: 5px solid #fff;
+
+        td:not(.tableStatus) {
+          padding: 0 5px;
+          height: 50px;
+
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .controlBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            svg {
+              font-size: 25px;
+              color: #292D32;
+              cursor: pointer;
+              transition: 0.4s;
+
+              &:hover {
+                transform: scale(1.2);
+                color: #3d444b;
+              }
+            }
+          }
+        }
+
+        .tableStatus {
+          min-width: 150px;
+
+          .statusSelectBlock {
+
+            .status__control {
+              padding-left: 15px;
+              border: 0;
+              box-shadow: rgba(196, 196, 196, 0);
+
+              &:hover {
+                border: 0;
+                box-shadow: rgba(196, 196, 196, 0);
+              }
+
+              .css-1okebmr-indicatorSeparator {
+                width: 0;
+              }
+            }
+
+            .pending {
+              border: 3px solid #E80000;
+              background-color: #FFFFFF;
+
+            }
+
+            .inProcess {
+              border: 3px solid #FF7425;
+              background-color: #FFFFFF;
+
+            }
+
+            .completed {
+              border: 3px solid #00A84D;
+              background-color: #FFFFFF;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .buttonDownload {
+    background-color: rgba(224, 224, 224, 0.12);
+    color: #c94d4d;
+    font-size: 1.7em;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .buttonDownload:hover {
+    color: #c62c2c;
+    transform: scale(1.4);
+  }
+
+  /* keyframes for the download icon anim */
+  @keyframes downloadArrow {
+    /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+    0% {
+      margin-top: -7px;
+      opacity: 1;
+    }
+
+    0.001% {
+      margin-top: -15px;
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      margin-top: 0;
+      opacity: 0;
+    }
+  }
+}
+
+
+.historyBlock {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  .orderHistoryName {
+    font-size: 30px;
+    color: #ea785a;
+    margin: 20px 0;
+  }
+
+  .orderHistory {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 0 5%;
+
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 1% 5%;
+
+      .tableHead {
+        height: 60px;
+        border: 1px solid #e7e7e7;
+        padding: 2px 5px;
+
+        tr {
+          height: 50px;
+
+          th{
+            input{
+              max-width: 150px;
+            }
+          }
+
+          .tableInput {
+
+            input {
+              border: 0 solid silver;
+              outline: none;
+              box-shadow: 1px 0 3px 0 silver;
+              margin: 0 5px;
+              padding: 4px 7px;
+              text-align: center;
+            }
+          }
+
+          .statusSelectBlock {
+            width: 70%;
+            margin: 0 15%;
+
+            .status__control {
+              border: 0;
+              box-shadow: 1px 0 0 1px rgba(180, 180, 180, 0.44);
+
+              &:hover {
+                border: 0;
+                box-shadow: rgba(196, 196, 196, 0);
+              }
+
+              .css-1okebmr-indicatorSeparator {
+                width: 0;
+              }
+            }
+
+
+            .pending {
+              border: 3px solid #E80000;
+              background-color: #FFFFFF;
+
+            }
+
+            .inProcess {
+              border: 3px solid #FF7425;
+              background-color: #FFFFFF;
+
+            }
+
+            .completed {
+              border: 3px solid #00A84D;
+              background-color: #FFFFFF;
+
+            }
+          }
+        }
+      }
+
+      .tableBody {
+
+        .pending {
+          background-color: rgba(232, 0, 0, 0.1);
+
+        }
+
+        .inProcess {
+          background-color: rgba(255, 116, 37, 0.1);
+        }
+
+        .completed {
+          background-color: rgba(0, 168, 77, 0.1);
+        }
+
+        tr {
+          width: 100%;
+          height: 57px;
+          border-top: 5px solid #fff;
+
+          td {
+            padding: 0 5px;
+
+            .controlBlock {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+
+              svg {
+                font-size: 25px;
+                color: rgba(41, 45, 50, 0.78);
+                cursor: pointer;
+                transition: 0.4s;
+
+                &:hover {
+                  transform: scale(1.2);
+                  color: #3d444b;
+                }
+              }
+            }
+
+            .emptyBlock {
+
+              div{
+                width: 100%;
+                min-width: 150px;
+              }
+            }
+          }
+
+          .tableStatus {
+            display: flex;
+            align-items: center;
+            height: 57px;
+            justify-content: center;
+
+            div {
+              display: flex;
+              width: 130px;
+
+              div {
+                width: 17px;
+                height: 17px;
+                border-radius: 50%;
+                margin-right: 15px;
+
+              }
+            }
+
+            .pending {
+              border: 3px solid #E80000;
+              background-color: #FFFFFF;
+
+            }
+
+            .inProcess {
+              border: 3px solid #FF7425;
+              background-color: #FFFFFF;
+
+            }
+
+            .completed {
+              border: 3px solid #00A84D;
+              background-color: #FFFFFF;
+
+            }
+          }
+        }
+      }
+    }
+
+    .historyCard {
+      border: 2px solid #ea785a;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 10px;
+
+      .time {
+        color: green;
+        font-size: 20px;
+      }
+
+      .tablesCount {
+        font-size: 20px;
+
+        strong {
+          font-size: 20px;
+        }
+      }
+
+    }
+  }
+}
+
+

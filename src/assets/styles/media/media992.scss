@@ -1,0 +1,1278 @@
+@media only screen and(max-width: 992px) {
+
+  .MuiFormGroup-root {
+    .MuiFormControlLabel-label {
+      .MuiTypography-body1 {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100% !important;
+
+    .logoBlock {
+      width: 100% !important;
+      height: 30% !important;
+      display: flex;
+      flex-direction: row !important;
+      justify-content: center !important;
+      align-items: flex-start;
+
+      .siteLogo {
+        margin-left: 0 !important;
+        object-fit: cover;
+        margin-top: 5%;
+      }
+
+      .siteCover {
+        width: 60% !important;
+        height: 100%;
+        object-fit: contain !important;
+        object-position: center;
+      }
+    }
+
+    .container {
+      width: 100% !important;
+      height: auto;
+    }
+  }
+
+  .inputArea {
+    margin-top: 10px !important;
+    width: 80% !important;
+
+    .MuiOutlinedInput-input {
+      padding: 14.5px 12px !important;
+    }
+  }
+
+  .restaurantCard {
+    margin-top: 15px !important;
+    width: 45% !important;
+
+    .MuiCardActionArea-root {
+      text-align: center !important;
+    }
+
+    .MuiCardContent-root {
+      padding: 5px !important;
+    }
+
+    .nameBlock {
+      h2 {
+        font-size: 18px;
+      }
+
+      .logoStyle {
+        width: 90px !important;
+        height: 60px !important;
+        margin: 0 !important;
+      }
+    }
+
+    .cardNavigationBlock {
+
+      .cardNavigationBlockUl {
+        li {
+          margin-top: 5px !important;
+
+          svg {
+            font-size: 16px !important;
+          }
+
+          p {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+
+    h2 {
+      margin-top: 10px !important;
+      font-size: 18px !important;
+    }
+
+    .settings {
+      width: 25px !important;
+      height: 25px !important;
+      color: #ea785a !important;
+    }
+
+    .switch-holder {
+
+      span {
+        font-size: 13px !important;
+      }
+    }
+
+    .branch {
+      font-size: 16px !important;
+      padding: 10px 10px !important;
+    }
+  }
+
+  .editUser {
+    padding: 10px 0 !important;
+
+    .person {
+      padding: 10px 0 10px 0 !important;
+
+      .profileControlBlock {
+        .personIcon {
+          font-size: 30px !important;
+        }
+
+        .closeControl {
+          .controlBlock {
+            right: 38px !important;
+            top: 65px !important;
+            width: 170px !important;
+
+            li {
+              margin-top: 10px !important;
+
+              svg {
+                font-size: 25px !important;
+              }
+
+              a {
+                margin-top: 10px !important;
+              }
+
+              span {
+                font-size: 18px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .editBlock {
+      padding: 10px 0 !important;
+      flex-direction: column-reverse;
+
+      .inputsBlock {
+        width: 100% !important;
+        border-top: 2px solid #66676b4f;
+
+        .nameBlock {
+          padding: 15px 0 !important;
+
+          .formBlock {
+            margin-bottom: 10px !important;
+
+            .inputLabel {
+              font-size: 16px !important;
+            }
+          }
+        }
+      }
+
+      img {
+        width: 50% !important;
+      }
+    }
+
+    .twoFactor {
+      padding: 15px 0 !important;
+
+      .switchBlock {
+        margin: 10px 0 10px 0 !important;
+
+        .MuiFormGroup-root {
+          width: 10% !important;
+        }
+
+        h2 {
+          font-size: 16px !important;
+        }
+      }
+
+      p {
+        font-size: 14px !important;
+      }
+    }
+
+    .buttonsBlock {
+      width: 100% !important;
+
+      .saveBlock {
+        width: 30% !important;
+
+        .back {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+  .userProfile {
+    width: 100%;
+
+    .header {
+      width: 100%;
+
+      .userInfo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 18% !important;
+        justify-content: center;
+        margin: 0 !important;
+        padding: 0 !important;
+
+        span {
+          font-size: 20px !important;
+          margin: 0 !important;
+        }
+      }
+
+      .profileControlBlock {
+        width: 82% !important;
+
+        .personIcon {
+          font-size: 35px !important;
+        }
+
+        .controlBlock {
+          padding: 0 13px 13px 13px !important;
+          width: 180px !important;
+
+          li {
+            margin-top: 10px !important;
+
+            a {
+              margin-top: 10px !important;
+            }
+
+            span {
+              font-size: 16px !important;
+              align-items: center;
+              margin-left: 10px !important;
+            }
+
+            svg {
+              font-size: 25px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .registration {
+    height: auto !important;
+
+    .formRegistration {
+
+      .signUp {
+        margin: 0 !important;
+      }
+
+      .registerBut {
+        margin-top: 10px !important;
+        padding: 10px 0 !important;
+      }
+    }
+
+    .forgetBlock {
+      padding: 10px 0 !important;
+
+      .forgetLogin {
+        padding: 10px 30px !important;
+      }
+    }
+  }
+
+  .management {
+    width: 18% !important;
+    padding: 0 !important;
+
+    ul {
+      width: 100% !important;
+      margin: 0 !important;
+
+      a {
+        li {
+          padding: 10px 0 !important;
+          width: 100% !important;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+        }
+
+        &.active {
+          color: #ea785a !important;
+          border-top: 0 !important;
+          border-bottom: 0 !important;
+          border-right: 0 !important;
+          border-left: 0 !important;
+          padding-left: 0 !important;
+          box-shadow: 0 6px 6px -3px rgba(234, 120, 90, 0.73);
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .disabled {
+      display: none;
+    }
+  }
+
+  .restaurantBlock {
+    width: 82% !important;
+
+    .restaurants {
+
+      .buttons {
+        width: 95% !important;
+
+        .searchBlog {
+          margin-top: 20px !important;
+          width: 60% !important;
+
+          input {
+            width: 70% !important;
+          }
+        }
+
+        .addRestaurantBlock {
+          margin-top: 20px !important;
+
+          &.branches {
+            width: 100%;
+          }
+
+          button {
+            padding: 10px 20px !important;
+
+            a {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+
+      .restaurantList {
+
+        .templates {
+          width: 40% !important;
+        }
+      }
+
+    }
+  }
+
+  .managers {
+    width: 82% !important;
+    padding: 20px 0 !important;
+
+    .controlBlock {
+      margin-bottom: 25px !important;
+
+      button {
+        font-size: 18px !important;
+        padding: 10px 20px !important;
+        margin-right: 30px !important;
+      }
+    }
+
+    .managersBlock {
+      width: 100% !important;
+
+      .managerCard {
+        margin-bottom: 10px !important;
+        padding: 0 8px !important;
+        border: 2px solid #ea785a !important;
+        width: 48% !important;
+
+        .buttonsBlock {
+          width: 100% !important;
+          padding: 10px 0 !important;
+        }
+      }
+    }
+  }
+
+  .menusBlock {
+    width: 82% !important;
+    padding: 10px 0 !important;
+
+    .root {
+      width: 95% !important;
+      padding-top: 0 !important;
+
+      .restaurantName {
+        font-size: 25px !important;
+      }
+
+      .menuSearchBlock {
+        margin-top: 15px !important;
+
+        a {
+          font-size: 18px !important;
+          padding: 10px 20px !important;
+          align-items: center !important;
+          display: flex !important;
+        }
+
+        input {
+          font-size: 20px !important;
+          width: 40% !important;
+        }
+
+        .categoryCreate {
+          padding: 10px 20px !important;
+        }
+      }
+
+      .CategoryBlock {
+        margin-top: 15px !important;
+
+        .categoryWorkBlock {
+          padding: 0 10px !important;
+
+          .categoryNameBlock {
+            width: 30% !important;
+
+            .menuButton {
+              p {
+                font-size: 18px !important;
+                margin-top: -1px !important;
+              }
+            }
+          }
+
+          .categoryControlBlock {
+
+            svg {
+              font-size: 25px !important;
+            }
+          }
+        }
+
+        .menuItems {
+          max-height: 350px !important;
+
+          .menuItemBlock {
+            .menuItemInfo {
+              img {
+                width: 50px !important;
+              }
+
+              p {
+                margin-left: 5px !important;
+                font-size: 16px !important;
+              }
+            }
+
+            .menuSwitch {
+              width: 29%;
+            }
+
+            .menuItemButtons {
+              svg {
+                font-size: 25px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tableSvg {
+    height: 350px !important;
+  }
+
+  .tables {
+    width: 82% !important;
+    padding-bottom: 10px !important;
+
+    .backButton {
+      font-size: 40px !important;
+      padding-left: 11px !important;
+      margin-left: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    .container {
+      width: 100% !important;
+
+      .buttonsBlock {
+        margin-top: 15px !important;
+
+        button {
+          padding: 10px 20px !important;
+          font-size: 16px !important;
+        }
+      }
+
+      .pageTitle {
+        font-size: 25px !important;
+        margin: 15px 0 !important;
+      }
+
+      .tablesBlock {
+        max-height: 350px !important;
+
+        //.table {
+        //  margin-top: 10px !important;
+        //  padding: 10px !important;
+        //  width: 20% !important;
+        //
+        //  .tableNumber {
+        //    font-size: 40px !important;
+        //  }
+        //
+        //  .tableControlBlock {
+        //    border-top: 2px dashed white !important;
+        //    width: 80%;
+        //    margin: 0 auto;
+        //
+        //    svg {
+        //      font-size: 25px !important;
+        //    }
+        //  }
+        //}
+      }
+
+      .historyBlock {
+        .orderHistoryName {
+          font-size: 25px !important;
+          margin: 20px 0 !important;
+        }
+
+        .orderHistory {
+          .historyCard {
+            border: 1px solid #ea785a !important;
+            padding: 8px !important;
+            margin-top: 10px !important;
+
+            .time {
+              font-size: 18px !important;
+            }
+
+            .tablesCount {
+              font-size: 18px !important;
+
+              strong {
+                font-size: 18px !important;
+              }
+            }
+
+            .controlBlock {
+              width: 90% !important;
+              margin: 0 auto !important;
+
+              svg {
+                font-size: 25px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .users {
+    width: 82% !important;
+
+    .usersBlock {
+      font-size: 22px !important;
+
+    }
+
+    .users__Block {
+
+      .userBlog {
+        margin-top: 10px;
+        border: 2px solid #ea785a !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40% !important;
+
+        .userName {
+          margin-top: 8px !important;
+
+          h4 {
+            font-size: 18px !important;
+          }
+        }
+
+        .restaurantBlog {
+          margin: 0 !important;
+          padding-top: 10px !important;
+
+          p {
+            font-size: 18px !important;
+            font-weight: 100 !important;
+
+            a {
+              font-weight: 100 !important;
+            }
+          }
+        }
+
+        .activeDelete {
+          svg {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .verify {
+
+    .containBlock {
+
+      .requestTextBlock {
+        .container {
+          .verifyButton {
+            font-size: 18px !important;
+            padding: 15px 45px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .repeat {
+    .logoBlock {
+      margin-bottom: 40px !important;
+
+      img {
+        width: 150px !important;
+      }
+    }
+
+    .successText {
+      width: 56% !important;
+      margin-bottom: 10px !important;
+
+      .doneText {
+        font-size: 20px !important;
+      }
+
+      .passwordText {
+        font-size: 16px !important;
+      }
+    }
+
+    .repeatPasswordForm {
+      width: 70% !important;
+
+      .registerBut {
+        font-size: 18px !important;
+        padding: 10px 25px !important;
+      }
+    }
+  }
+
+  .templates {
+    width: calc(1570 / 1920 * 95%);
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+
+  //modals
+
+  .restaurantRegisterModal {
+
+    .closeBlock {
+      .process {
+        width: 92% !important;
+
+        .signUp {
+          font-size: 20px !important;
+        }
+      }
+
+      .closeButtonBlock {
+        width: 8% !important;
+      }
+    }
+
+    .restaurantRegister {
+      margin: 10px 0 !important;
+
+      .regGroup {
+        .inputArea {
+          width: 90% !important;
+        }
+
+        &.images {
+          width: 100% !important;
+          margin: 10px 0 !important;
+
+          .coverLabel {
+            width: 40% !important;
+
+            .restaurantImageText {
+              font-size: 20px !important;
+              text-align: center;
+            }
+
+            .fileInput {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              div {
+                margin-top: 10px !important;
+              }
+
+              .buttonFile {
+                font-size: 18px !important;
+                padding: 10px !important;
+              }
+            }
+
+            &:nth-child(2) {
+              img {
+                transform: none !important;
+              }
+            }
+          }
+        }
+      }
+
+      .regBlock {
+
+        .buttonDesign {
+          font-size: 18px !important;
+          padding: 10px 22px !important;
+        }
+      }
+    }
+  }
+
+  .deleteCategoryModal {
+    .ReactModal__Content {
+      width: 80% !important;
+    }
+
+    .deleteModal {
+      padding: 15px 0 !important;
+
+      span {
+        font-size: 18px !important;
+      }
+
+      .buttonBlock {
+        margin-top: 15px !important;
+        justify-content: space-evenly !important;
+
+        button {
+          padding: 10px 22px !important;
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+
+  .createManagerModal {
+
+    .createManager {
+
+      .closeManagerBlock {
+
+        .closeButton {
+          padding: 10px !important;
+        }
+      }
+
+      .managerForm {
+        padding: 5px 0 10px 0 !important;
+
+        .restaurantSelect {
+          .restaurantSelectName {
+            font-size: 18px !important;
+            margin: 5px 0 !important;
+          }
+
+          .restaurantSelectBlock {
+
+            .restaurant__control {
+              height: 45px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createCategoryModal {
+    .ReactModal__Content {
+      width: 80% !important;
+
+      .createCategory {
+
+        .closeCategoryBlock {
+          span {
+            font-size: 16px !important;
+          }
+
+          .closeButton {
+            padding: 10px 10px 2px 8px !important;
+          }
+        }
+
+        .categoryLanguageBlock {
+          .categoryLanguageDiv {
+            p {
+              padding: 7px !important;
+            }
+          }
+        }
+
+        .categoryLanguageBlockRegister {
+
+          .categoryRegisterLanguage {
+
+            .categoryForm {
+
+              .categoryLabel {
+                margin-top: 10px !important;
+
+                .restaurantCategoryTittle {
+                  font-size: 18px !important;
+                }
+
+                .fileInput {
+                  .buttonFile {
+                    font-size: 16px !important;
+                    padding: 10px 0 !important;
+                    margin-top: 10px !important;
+                  }
+                }
+              }
+
+              .categoryRegisterBut {
+                font-size: 18px !important;
+                margin-top: 10px !important;
+                padding: 10px 25px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createMenuModal {
+    .ReactModal__Content {
+      width: 80% !important;
+
+      .createMenu {
+        .closeCategoryBlock {
+          span {
+            font-size: 16px !important;
+            margin-left: 12px !important;
+          }
+
+          .closeButton {
+            padding: 10px 10px 2px 8px !important;
+          }
+        }
+
+        .categoryLanguageBlock {
+          .categoryLanguageDiv {
+            p {
+              padding: 7px !important;
+            }
+          }
+        }
+
+        .categoryLanguageBlockRegister {
+          .categoryRegisterLanguage {
+            .categoryForm {
+              align-items: center;
+              text-align: center;
+              margin-top: 10px !important;
+
+              .selectBlock {
+                .rateSelectBlock {
+                  margin-top: 10px !important;
+
+                  .rate__control {
+                    height: 46px !important;
+                  }
+                }
+              }
+
+              .veganSelectBlock {
+                margin-top: 10px !important;
+
+                .vegan__control {
+                  height: 46px !important;
+                }
+              }
+
+              .categoryLabel {
+                margin-top: 10px !important;
+
+                .restaurantCategoryTittle {
+                  font-size: 18px !important;
+                }
+
+                .fileInput {
+                  img {
+                    margin-top: 10px !important;
+                  }
+
+                  p {
+                    font-size: 16px !important;
+                    padding: 10px 0 !important;
+                    margin-top: 10px !important;
+                    width: 65%;
+                  }
+                }
+              }
+
+              .categoryRegisterBut {
+                font-size: 18px !important;
+                padding: 10px 20px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createTableModal {
+    .ReactModal__Content {
+      width: 58% !important;
+
+      .createTable {
+        .closeTableBlock {
+          span {
+            font-size: 16px !important;
+            margin-left: 10px !important;
+          }
+
+          .closeButton {
+            padding: 10px 10px 2px 8px !important;
+          }
+        }
+
+        .tableInputBlock {
+          .tableForm {
+            button {
+              font-size: 18px !important;
+              padding: 10px 20px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createQrModal {
+    .ReactModal__Content {
+      .orderQr {
+        .closeOrderBlock {
+          span {
+            margin-left: 10px !important;
+            font-size: 16px !important;
+          }
+
+          .closeButton {
+            padding: 10px 10px 2px 8px !important;
+          }
+        }
+
+        .buttonsBlock {
+          span {
+            font-size: 14px;
+          }
+
+          .orderTable {
+
+          }
+        }
+
+        .tablesNameBlock {
+          .tableBlock {
+            max-height: 450px !important;
+
+            .singleTable {
+              .tableName {
+                font-size: 22px !important;
+                padding: 15px 20px !important;
+              }
+
+              .countControl {
+                .count {
+                  font-size: 23px !important;
+                }
+              }
+            }
+          }
+
+          .chooseBlock {
+            width: 95% !important;
+            padding: 10px 0 !important;
+
+            .price {
+              font-size: 18px !important;
+            }
+
+            .choose {
+              font-size: 18px !important;
+              padding: 10px 15px !important;
+            }
+          }
+
+          .info {
+            font-size: 15px !important;
+            margin-left: 4% !important;
+          }
+        }
+
+        .templateBlock {
+          padding: 10px 0 !important;
+
+          .imagesBlock {
+
+            .imageBorder {
+              border: 3px dashed #ea785a !important;
+            }
+          }
+
+          .order {
+            font-size: 18px !important;
+            padding: 10px 25px !important;
+            margin: 10px 25px 0 0 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .usersModal {
+
+    .editUserModal {
+      padding: 20px 0 !important;
+
+      .buttonBlock {
+        margin-top: 10px !important;
+
+        button {
+          font-size: 18px !important;
+          padding: 10px 15px !important;
+        }
+      }
+    }
+  }
+
+  .repeatModal {
+    .ReactModal__Content {
+      width: 55% !important;
+
+      .repeatBLock {
+        .successRepeatBlock {
+          padding: 10px 0 !important;
+
+          .successText {
+            font-size: 18px !important;
+            padding: 10px 35px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .repeatLogin {
+    .ReactModal__Content {
+      width: 60% !important;
+
+      .verifyTitle {
+        font-size: 20px !important;
+        margin-top: 10px !important;
+      }
+
+      .text {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        padding: 20px 10px !important;
+      }
+
+      .sendButton {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+      }
+    }
+  }
+
+  .createOrderModal {
+    .ReactModal__Content {
+      border: 0 !important;
+      width: 66% !important;
+      max-height: 90%;
+      inset: auto !important;
+      padding: 0 !important;
+    }
+  }
+
+  .imagesEditBlock {
+    margin: 20px 0;
+
+    .edit_page {
+      display: flex;
+      justify-content: space-around;
+
+      .qr__code1,
+      .qr__code {
+        width: 44%;
+        height: auto !important;
+
+        .qr__code_row1,
+        .qr__code_row {
+          .arrow__down {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #F2BC57;
+            color: white;
+            z-index: 100;
+            transition: all 0.5s;
+            position: absolute;
+            bottom: -10px;
+            left: calc(50% - 30px);
+          }
+
+        }
+
+        .qr__container1,
+        .qr__container {
+          width: 100%;
+          height: 280px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: column;
+          color: whitesmoke;
+
+          .qr__block {
+            width: 50%;
+
+            canvas {
+              width: 100% !important;
+              height: 100% !important;
+            }
+          }
+        }
+
+        .qr__container1 {
+          background-color: rgba(0, 0, 0, 0.7);
+          width: 80%;
+          margin: 0 10%;
+        }
+      }
+
+      .edit_block {
+        margin-left: 25px;
+        overflow: auto;
+        padding: 5px 15px 25px;
+        width: 40%;
+        background-color: rgba(231, 231, 231, 0.3);
+        max-height: 500px;
+        min-width: 240px !important;
+
+        .button {
+          display: inline-block;
+          padding: 0.35em 1.2em;
+          border: 0.1em solid #FFFFFF;
+          margin: 0 0.3em 0.3em 0;
+          border-radius: 0.12em;
+          box-sizing: border-box;
+          text-decoration: none;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          color: #2f2e2e;
+          background-color: #FFFFFF;
+          text-align: center;
+          transition: all 0.2s;
+          text-shadow: 1px 1px 1px silver;
+          box-shadow: 1px 1px 2px 1px #b5b5b5;
+        }
+
+        .button:hover {
+          box-shadow: 1px 2px 4px 1px #939292;
+        }
+
+        .AccordionDetails {
+          display: block;
+          padding: 0 30px 30px;
+
+          ul {
+            li {
+              list-style-type: none;
+              padding: 25px 25px 30px;
+              width: 100%;
+              -webkit-box-shadow: 0 10px 13px -7px rgba(0, 0, 0, 0.49), -32px -3px 16px 10px rgba(216, 255, 212, 0);
+              box-shadow: 0 10px 13px -7px rgba(0, 0, 0, 0.49), -32px -3px 16px 10px rgba(216, 255, 212, 0);
+
+              p {
+                margin-bottom: 16px;
+                padding-top: 10px;
+              }
+            }
+
+
+          }
+        }
+      }
+    }
+  }
+
+  .AuthenticationModal {
+    .ReactModal__Content {
+      width: 70% !important;
+
+      .imageBlock {
+        padding: 10px;
+
+        img {
+          width: 35% !important;
+        }
+
+        .textInfo {
+          span {
+            font-size: 17px !important;
+          }
+
+          p {
+            font-size: 15px !important;
+          }
+
+          .TwoFactorBlock {
+            key {
+              font-size: 37px !important;
+            }
+
+            .verifyButton {
+              padding: 8px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

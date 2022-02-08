@@ -1,0 +1,952 @@
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .MuiFormGroup-root {
+    width: 25% !important;
+  }
+  .wrapper {
+    margin-top: 70px !important;
+    height: 100% !important;
+
+    .logoBlock {
+      width: 50% !important;
+      justify-content: center !important;
+      height: auto !important;
+
+      .siteLogo {
+        margin-bottom: 115px;
+        width: 25% !important;
+      }
+    }
+
+    .container {
+      width: 50% !important;
+    }
+  }
+
+  .login {
+    .forgetButton {
+      font-size: 18px !important;
+      margin-top: 20px !important;
+    }
+
+    .forgetBlock {
+      padding: 20px 0 !important;
+
+      span {
+        margin-right: 10px !important;
+        font-size: 18px !important;
+      }
+
+      .registerBut {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .registration {
+
+    .formRegistration {
+
+      .signUp {
+        margin-bottom: 0 !important;
+      }
+
+      .registerBut {
+        margin-top: 10px !important;
+        padding: 10px 0 !important;
+      }
+    }
+
+    .forgetBlock {
+      padding: 10px 0 !important;
+
+      .forgetLogin {
+        padding: 10px 30px !important;
+      }
+    }
+  }
+
+  .userProfile {
+    .userInfo {
+      display: flex;
+      text-align: center;
+      width: 22% !important;
+      justify-content: center;
+      margin: 0 !important;
+      padding: 0 !important;
+      align-items: center;
+
+      span {
+        font-size: 20px !important;
+      }
+    }
+
+    .profileControlBlock {
+      width: 78% !important;
+
+      .personIcon {
+        font-size: 35px !important;
+      }
+
+      .controlBlock {
+        padding: 0 10px 10px 10px !important;
+        width: 180px !important;
+
+        li {
+          margin-top: 10px !important;
+
+          a {
+            margin-top: 0 !important;
+          }
+
+          svg {
+            font-size: 25px !important;
+          }
+
+          span {
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .editUser {
+    .person {
+      padding: 10px 0 10px 0 !important;
+
+      .profileControlBlock {
+        .svg {
+          font-size: 35px !important;
+        }
+
+        .closeControl {
+          .controlBlock {
+            right: 50px !important;
+            top: 90px !important;
+            padding: 0 10px 10px 10px !important;
+
+            li {
+              margin-top: 10px !important;
+
+              a {
+                margin-top: 10px !important;
+              }
+
+              svg {
+                font-size: 25px !important;
+              }
+
+              span {
+                font-size: 18px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .editBlock {
+      padding: 10px 0 !important;
+
+      .inputsBlock {
+        width: 50% !important;
+
+        .nameBlock {
+          padding: 15px 0 !important;
+
+          .formBlock {
+            margin-bottom: 10px !important;
+
+            span {
+              font-size: 16px !important;
+            }
+          }
+        }
+      }
+
+      img {
+        width: 50% !important;
+      }
+    }
+
+    .twoFactor {
+      padding: 15px 0 !important;
+
+      .switchBlock {
+        margin: 0 0 10px 0 !important;
+
+        .MuiFormGroup-root {
+          width: 10% !important;
+        }
+
+        h2 {
+          font-size: 16px !important;
+          margin-left: 25px !important;
+        }
+      }
+
+      p {
+        font-size: 14px !important;
+      }
+    }
+
+    .buttonsBlock {
+      .saveBlock {
+        width: 45% !important;
+
+        .back {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+  .repeat {
+    .logoBlock {
+      margin-bottom: 60px !important;
+
+      img {
+        width: 180px !important;
+      }
+    }
+
+    .successText {
+      width: 35% !important;
+      margin-left: 30px;
+      margin-bottom: 10px !important;
+
+      .doneText {
+        font-size: 22px !important;
+      }
+
+      .passwordText {
+        font-size: 16px !important;
+      }
+    }
+
+    .repeatPasswordForm {
+      .registerBut {
+        font-size: 18px !important;
+        margin-top: 10px !important;
+        border: 1px solid #ea785a !important;
+        font-weight: 500 !important;
+        padding: 10px 20px !important;
+      }
+    }
+  }
+
+  .management {
+    width: 22% !important;
+    padding: 0 !important;
+
+    ul {
+      width: 100% !important;
+      margin-top: 30px !important;
+
+      a {
+        padding: 10px 0 !important;
+
+        li {
+          align-items: center;
+          text-align: center;
+          width: 90%;
+          margin: 0 auto;
+
+          p {
+            font-size: 18px !important;
+          }
+        }
+
+        &.active {
+          color: #ea785a !important;
+          border-top: 0 !important;
+          border-bottom: 0 !important;
+          border-right: 0 !important;
+          border-left: 0 !important;
+          padding-left: 0 !important;
+          box-shadow: 0 6px 6px -3px rgba(234, 120, 90, 0.73);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  .restaurantBlock {
+    width: 78% !important;
+    margin-bottom: 10px !important;
+
+    .restaurants {
+      .buttons {
+        width: 95% !important;
+
+        .searchBlog {
+          width: 55% !important;
+          margin-top: 20px !important;
+          justify-content: flex-end !important;
+
+          input {
+            width: 75% !important;
+            font-size: 16px !important;
+          }
+        }
+
+        .addRestaurantBlock {
+          margin-top: 20px !important;
+
+          &.branches {
+            button {
+              width: 150px !important;
+              height: 45px !important;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .restaurantCard {
+    margin-top: 20px !important;
+    width: 45% !important;
+
+    .MuiCardActionArea-root {
+      text-align: center !important;
+    }
+
+    .MuiCardContent-root {
+      padding: 10px !important;
+    }
+
+    .nameBlock {
+      h2 {
+        font-size: 20px !important;
+      }
+
+      .logoStyle {
+        margin: 0 !important;
+        width: 70px !important;
+        height: 60px !important;
+      }
+    }
+
+    .cardNavigationBlock {
+      .cardNavigationBlockUl {
+        li {
+          p {
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+
+    .cardSubName {
+      font-size: 18px !important;
+      margin-top: 10px !important;
+    }
+
+    .MuiButton-textSizeSmall {
+      padding: 0 !important;
+    }
+
+    .settings {
+      width: 25px !important;
+      height: 25px !important;
+    }
+
+    .switch-holder {
+      margin: 0 !important;
+
+      span {
+        font-size: 15px !important;
+      }
+    }
+  }
+
+  .managers {
+    width: 78% !important;
+    height: 100% !important;
+    padding: 20px 0 !important;
+
+    .controlBlock {
+      padding-bottom: 20px !important;
+      width: 80%;
+      margin: 0 auto !important;
+    }
+
+    .managersBlock {
+      width: 100% !important;
+
+      .managerCard {
+        border: 2px solid #ea785a !important;
+        padding: 0 10px !important;
+        margin-bottom: 10px !important;
+        width: 45% !important;
+
+        .buttonsBlock {
+          padding: 10px 0 !important;
+          width: 70% !important;
+
+          svg {
+            font-size: 25px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .menusBlock {
+    width: 78% !important;
+    padding: 15px 0 !important;
+
+    .root {
+      width: 90% !important;
+      padding: 0 !important;
+
+      .restaurantName {
+        font-size: 30px !important;
+      }
+
+      .menuSearchBlock {
+        margin-top: 15px !important;
+        align-items: center;
+
+        input {
+          font-size: 20px !important;
+          height: 40px !important;
+        }
+      }
+
+      .CategoryBlock {
+        margin-top: 10px !important;
+
+        .categoryWorkBlock {
+          padding: 0 8px !important;
+
+          .MuiAccordionSummary-content {
+            margin: 8px 0 !important;
+
+            .categoryNameBlock {
+              width: 40% !important;
+            }
+
+            .MuiFormGroup-root {
+              width: 25% !important;
+            }
+
+            .categoryControlBlock {
+              button {
+                padding: 0 !important;
+
+                svg {
+                  font-size: 27px !important;
+                }
+              }
+            }
+          }
+        }
+
+        .menuItems {
+          padding: 8px 16px !important;
+
+          .menuItemBlock {
+            margin: 0 !important;
+
+            .menuItemInfo {
+              img {
+                height: 50px !important;
+              }
+            }
+
+            .menuSwitch {
+              width: 25%;
+            }
+
+            .menuItemButtons {
+              width: 15% !important;
+              margin-right: 0 !important;
+
+              svg {
+                font-size: 25px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tables {
+    width: 78% !important;
+    padding-bottom: 10px !important;
+
+    .backButton {
+      font-size: 45px !important;
+      padding-left: 12px !important;
+      margin-left: 15px !important;
+      margin-top: 15px !important;
+    }
+
+    .container {
+      .buttonsBlock {
+        margin-top: 10px !important;
+
+        button {
+          padding: 10px 25px !important;
+        }
+      }
+
+      .pageTitle {
+        margin: 20px 0 0 0 !important;
+      }
+
+      .tablesBlock {
+        .tableSvg {
+          height: 500px !important;
+        }
+      }
+
+      .historyBlock {
+        .orderHistoryName {
+          margin: 20px 0 0 0 !important;
+        }
+
+        .orderHistory {
+          .historyCard {
+            padding: 10px !important;
+            margin-top: 10px !important;
+
+            .controlBlock {
+              svg {
+                font-size: 25px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .singleTable {
+    .tableName {
+      padding: 15px !important;
+      font-size: 24px !important;
+    }
+  }
+
+  .users {
+    width: 78% !important;
+
+    .usersBlock {
+      font-size: 24px !important;
+    }
+
+    .users__Block {
+      overflow: hidden;
+
+      .userBlog {
+        width: 31% !important;
+        border: 2px solid #ea785a !important;
+        margin-top: 10px !important;
+
+        .userName {
+          margin-top: 8px !important;
+
+          h4 {
+            font-size: 20px !important;
+          }
+        }
+
+        .restaurantBlog {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px !important;
+          margin-left: 0 !important;
+        }
+
+        .activeDelete {
+          width: 90% !important;
+
+          svg {
+            font-size: 25px !important;
+          }
+
+          .deleteBlog {
+            margin-top: 10px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .templates {
+    width: calc(1570 / 1920 * 95%) !important;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  // MODALS
+
+  .restaurantRegisterModal {
+    .ReactModal__Content {
+      .closeBlock {
+        .process {
+          width: 94% !important;
+        }
+
+        .closeButtonBlock {
+          width: 6% !important;
+        }
+      }
+
+      .restaurantRegister {
+        .regGroup {
+          &.images {
+            width: 100% !important;
+            margin-bottom: 20px !important;
+
+            .coverLabel {
+              width: 35% !important;
+
+              .restaurantImageText {
+                font-size: 20px !important;
+                text-align: center;
+              }
+
+              .fileInput {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div {
+                  margin-top: 10px !important;
+                }
+
+                .buttonFile {
+                  padding: 10px !important;
+                }
+              }
+
+              &:nth-child(2) {
+                img {
+                  transform: none !important;
+                }
+              }
+            }
+          }
+        }
+
+        .regBlock {
+          .buttonDesign {
+            font-size: 20px !important;
+            margin: 0 !important;
+            padding: 10px 35px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .deleteCategoryModal {
+    .ReactModal__Content {
+      width: 55% !important;
+
+      .deleteModal {
+        span {
+          font-size: 18px !important;
+        }
+
+        .buttonBlock {
+          margin-top: 10px !important;
+
+          button {
+            padding: 10px 25px !important;
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .createManagerModal {
+    .ReactModal__Content {
+      .createManager {
+        .closeManagerBlock {
+          .closeButton {
+            padding: 10px !important;
+
+            svg {
+              font-size: 20px !important;
+            }
+          }
+        }
+
+        .managerForm {
+          padding: 5px 0 10px 0 !important;
+
+          .restaurantSelect {
+            .restaurantSelectName {
+              font-size: 20px !important;
+              margin: 10px 0 !important;
+            }
+
+            .restaurantSelectBlock {
+              .restaurant__control {
+                height: 38px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .forgotModal {
+    .ReactModal__Content {
+      .loginBut {
+        font-size: 20px !important;
+
+        span {
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
+
+  .createCategoryModal {
+    .ReactModal__Content {
+      width: 60% !important;
+
+      .createCategory {
+        .closeCategoryBlock {
+          .closeButton {
+            padding: 8px !important;
+
+            svg {
+              font-size: 22px !important;
+            }
+          }
+        }
+
+        .categoryLanguageBlock {
+          p {
+            padding: 7px !important;
+          }
+        }
+
+        .categoryLanguageBlockRegister {
+          .categoryRegisterLanguage {
+            .categoryForm {
+              margin-top: 10px !important;
+              padding-bottom: 10px !important;
+
+              .categoryLabel {
+                margin-top: 15px !important;
+
+                .fileInput {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+
+                  img {
+                    margin-top: 15px !important;
+                  }
+
+                  .buttonFile {
+                    padding: 8px 0 !important;
+                    margin-top: 10px !important;
+                    width: 70% !important;
+                  }
+                }
+              }
+
+              .categoryRegisterBut {
+                margin-top: 10px !important;
+                padding: 10px 30px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createMenuModal {
+    .ReactModal__Content {
+      width: 60% !important;
+
+      .createMenu {
+        .closeCategoryBlock {
+          .closeButton {
+            padding: 8px !important;
+
+            svg {
+              font-size: 22px !important;
+            }
+          }
+        }
+
+        .categoryLanguageBlock {
+          p {
+            padding: 7px !important;
+          }
+        }
+
+        .categoryLanguageBlockRegister {
+          .categoryRegisterLanguage {
+            .categoryForm {
+              margin-top: 10px !important;
+              padding-bottom: 10px !important;
+
+              .selectBlock {
+                .rateSelectBlock {
+                  .rate__control {
+                    height: 40px !important;
+                  }
+                }
+              }
+
+              .veganSelectBlock {
+                .vegan__control {
+                  height: 40px !important;
+                }
+              }
+
+              .categoryLabel {
+                margin-top: 15px !important;
+
+                .fileInput {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+
+                  img {
+                    margin-top: 15px !important;
+                  }
+
+                  .buttonFile {
+                    padding: 8px 0 !important;
+                    margin-top: 10px !important;
+                    width: 70% !important;
+                  }
+                }
+              }
+
+              .categoryRegisterBut {
+                margin-top: 10px !important;
+                padding: 10px 30px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createTableModal {
+    .ReactModal__Content {
+      width: 60% !important;
+
+      .createTable {
+        .closeTableBlock {
+          .closeButton {
+            padding: 8px !important;
+
+            svg {
+              font-size: 22px !important;
+            }
+          }
+        }
+
+        .tableInputBlock {
+          .tableForm {
+            button {
+              margin-top: 10px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .createQrModal {
+    .ReactModal__Content {
+      width: 60% !important;
+
+      .orderQr {
+        .closeOrderBlock {
+          .closeButton {
+            padding: 8px !important;
+
+            svg {
+              font-size: 22px !important;
+            }
+          }
+        }
+
+        .tablesNameBlock {
+          .tableBlock {
+            max-height: 500px !important;
+          }
+
+          .chooseBlock {
+            padding: 10px 0 !important;
+
+            .price {
+              font-size: 22px !important;
+            }
+
+            .choose {
+              padding: 10px 25px !important;
+            }
+          }
+
+          .info {
+            font-size: 16px !important;
+          }
+        }
+
+        .templateBlock {
+          .order {
+            font-size: 20px !important;
+            padding: 10px 35px !important;
+            margin: 10px 30px 0 0 !important;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .repeatLogin {
+    .ReactModal__Content {
+      width: 60% !important;
+
+      .verifyTitle {
+        font-size: 20px !important;
+        margin-top: 15px !important;
+      }
+
+      .text {
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        padding: 10px 0 !important;
+      }
+
+      .sendButton {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+      }
+    }
+  }
+
+  .AuthenticationModal {
+    .ReactModal__Content {
+      width: 60% !important;
+    }
+  }
+}
